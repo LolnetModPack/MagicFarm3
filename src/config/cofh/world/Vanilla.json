@@ -1,0 +1,379 @@
+{
+    "dirt": {
+        "template": "uniform",
+        "block": "dirt",
+        "material": "minecraft:stone",
+        "clusterSize": 32,
+        "numClusters": 20,
+        "minHeight": 0,
+        "maxHeight": 128,
+        "retrogen": "false",
+        "biomeRestriction": "none",
+        "biomes": [],
+        "dimensionRestriction": "blacklist",
+        "dimensions": [
+            -1,
+            1
+        ]
+    },
+	"clay": {
+        "template": "uniform",
+        "block": "clay",
+        "material": "minecraft:stone",
+        "clusterSize": 8,
+        "numClusters": 20,
+        "minHeight": 0,
+        "maxHeight": 65,
+        "retrogen": "true",
+        "biomeRestriction": "none",
+        "biomes": [],
+        "dimensionRestriction": "blacklist",
+        "dimensions": [
+            -1,
+            1
+        ]
+    },
+    "gravel": {
+        "template": "uniform",
+        "block": "gravel",
+        "material": "stone",
+        "clusterSize": 32,
+        "numClusters": 10,
+        "minHeight": 0,
+        "maxHeight": 128,
+        "retrogen": "false",
+        "biomeRestriction": "none",
+        "biomes": [],
+        "dimensionRestriction": "blacklist",
+        "dimensions": [
+            -1,
+            1
+        ]
+    },
+    "coal1": {
+        "template": "uniform",
+        "block": "coal_ore",
+        "material": "stone",
+        "clusterSize": 24,
+        "numClusters": 20,
+        "minHeight": 0,
+        "maxHeight": 128,
+        "retrogen": "true",
+        "biomeRestriction": "whitelist",
+        "biomes": [ 
+		{"type": "dictionary",
+		"entry": "WET"
+		},
+		{"type": "dictionary",
+		"entry": "SWAMP"
+		},
+		{"type": "dictionary",
+		"entry": "LUSH"
+		},
+		{"type": "dictionary",
+		"entry": "HILLS"
+		}	
+        ],
+        "dimensionRestriction": "blacklist",
+        "dimensions": [
+            -1,
+            1
+        ]
+    },
+	"coal2": {
+        "template": "uniform",
+        "block": "coal_ore",
+        "material": "stone",
+        "clusterSize": 8,
+        "numClusters": 20,
+        "minHeight": 0,
+        "maxHeight": 128,
+        "retrogen": "true",
+        "biomeRestriction": "none",
+        "biomes": [],
+        "dimensionRestriction": "blacklist",
+        "dimensions": [
+            -1,
+            1
+        ]
+    },
+    "iron1": {
+        "template": "uniform",
+        "block": "iron_ore",
+        "material": "minecraft:stone",
+        "clusterSize": 8,
+        "numClusters": 20,
+        "minHeight": 0,
+        "maxHeight": 64,
+        "retrogen": "true",
+        "biomeRestriction": "none",
+        "biomes": [],
+        "dimensionRestriction": "blacklist",
+        "dimensions": [
+            -1,
+            1
+        ]
+    },
+	"iron2": {
+        "template": "uniform",
+        "block": "iron_ore",
+        "material": "minecraft:stone",
+        "clusterSize": 4,
+        "numClusters": 20,
+        "minHeight": 50,
+        "maxHeight": 78,
+        "retrogen": "true",
+        "biomeRestriction": "none",
+        "biomes": [],
+        "dimensionRestriction": "blacklist",
+        "dimensions": [
+            -1,
+            1
+        ]
+    },
+	"iron3": {
+        "template": "uniform",
+        "block": "iron_ore",
+        "material": "minecraft:stone",
+        "clusterSize": 8,
+        "numClusters": 10,
+        "minHeight": 64,
+        "maxHeight": 90,
+        "retrogen": "true",
+        "biomeRestriction": "whitelist",
+        "biomes": [ 
+		{"type": "dictionary",
+		"entry": "MOUNTAIN"
+		},		
+		{"type": "dictionary",
+		"entry": "HILLS"
+		}	
+        ],
+        "dimensionRestriction": "blacklist",
+        "dimensions": [
+            -1,
+            1
+        ]
+    },
+    "gold1": {
+        "template": "uniform",
+        "block": "gold_ore",
+        "material": "minecraft:stone",
+        "clusterSize": 2,
+        "numClusters": 4,
+        "minHeight": 40,
+        "maxHeight":64,
+        "retrogen": "true",
+        "biomeRestriction": "none",
+        "biomes": [],
+        "dimensionRestriction": "blacklist",
+        "dimensions": [
+            -1,
+            1
+        ]
+    },
+	"gold2": {
+        "template": "uniform",
+        "block": "gold_ore",
+        "material": "minecraft:stone",
+        "clusterSize": 8,
+        "numClusters": 2,
+        "minHeight": 0,
+        "maxHeight": 32,
+        "retrogen": "true",
+        "biomeRestriction": "none",
+        "biomes": [],
+        "dimensionRestriction": "blacklist",
+        "dimensions": [
+            -1,
+            1
+        ]
+    },
+	"gold3": {
+        "template": "uniform",
+        "block": "gold_ore",
+        "material": "minecraft:stone",
+        "clusterSize": 10,
+        "numClusters": 4,
+        "minHeight": 40,
+        "maxHeight": 75,
+        "retrogen": "true",
+        "biomeRestriction": "whitelist",
+        "biomes": [ 
+		{"type": "dictionary",
+		"entry": "RIVER"
+		},		
+		{"type": "dictionary",
+		"entry": "BEACH"
+		}	
+        ],
+        "dimensionRestriction": "blacklist",
+        "dimensions": [
+            -1,
+            1
+        ]
+    },
+    "redstone1": {
+        "template": "uniform",
+        "block": "redstone_ore",
+        "material": "minecraft:stone",
+        "clusterSize": 7,
+        "numClusters": 8,
+        "minHeight": 0,
+        "maxHeight": 16,
+        "retrogen": "true",
+        "biomeRestriction": "none",
+        "biomes": [],
+        "dimensionRestriction": "blacklist",
+        "dimensions": [
+            -1,
+            1
+        ]
+    },
+	"redstone2": {
+        "template": "uniform",
+        "block": "redstone_ore",
+        "material": "minecraft:stone",
+        "clusterSize": 2,
+        "numClusters": 10,
+        "minHeight": 20,
+        "maxHeight": 50,
+        "retrogen": "true",
+        "biomeRestriction": "whitelist",
+        "biomes": [ 
+		{"type": "dictionary",
+		"entry": "HILLS"
+		},		
+		{"type": "dictionary",
+		"entry": "MESA"
+		}	
+        ],
+        "dimensionRestriction": "blacklist",
+        "dimensions": [
+            -1,
+            1
+        ]
+    },
+    "diamond1": {
+        "template": "uniform",
+        "block": "diamond_ore",
+        "material": "minecraft:stone",
+        "clusterSize": 7,
+        "numClusters": 1,
+        "minHeight": 0,
+        "maxHeight": 16,
+        "retrogen": "true",
+        "biomeRestriction": "none",
+        "biomes": [],
+        "dimensionRestriction": "blacklist",
+        "dimensions": [
+            -1,
+            1
+        ]
+    },
+	"diamond2": {
+        "template": "uniform",
+        "block": "diamond_ore",
+        "material": "minecraft:stone",
+        "clusterSize": 2,
+        "numClusters": 5,
+        "minHeight": 20,
+        "maxHeight": 40,
+        "retrogen": "true",
+        "biomeRestriction": "whitelist",
+        "biomes": [ 
+		{"type": "dictionary",
+		"entry": "HILLS"
+		},		
+		{"type": "dictionary",
+		"entry": "MOUNTAIN"
+		}	
+        ],
+        "dimensionRestriction": "blacklist",
+        "dimensions": [
+            -1,
+            1
+        ]
+    },
+	"diamond3": {
+        "template": "uniform",
+        "block": "diamond_ore",
+        "material": "minecraft:stone",
+        "clusterSize": 1,
+        "numClusters": 8,
+        "minHeight": 70,
+        "maxHeight": 85,
+        "retrogen": "true",
+        "biomeRestriction": "whitelist",
+        "biomes": [ 
+		{"type": "dictionary",
+		"entry": "HILLS"
+		},		
+		{"type": "dictionary",
+		"entry": "MOUNTAIN"
+		}	
+        ],
+        "dimensionRestriction": "blacklist",
+        "dimensions": [
+            -1,
+            1
+        ]
+    },
+    "lapis1": {
+        "template": "normal",
+        "block": "lapis_ore",
+        "material": "minecraft:stone",
+        "clusterSize": 6,
+        "numClusters": 3,
+        "meanHeight": 16,
+        "maxVariance": 16,
+        "retrogen": "true",
+        "biomeRestriction": "none",
+        "biomes": [],
+        "dimensionRestriction": "blacklist",
+        "dimensions": [
+            -1,
+            1
+        ]
+    },
+	"lapis2": {
+        "template": "normal",
+        "block": "lapis_ore",
+        "material": "minecraft:stone",
+        "clusterSize": 4,
+        "numClusters": 1,
+        "meanHeight": 30,
+        "maxVariance": 16,
+        "retrogen": "true",
+        "biomeRestriction": "whitelist",
+        "biomes": [ 
+		{"type": "dictionary",
+		"entry": "HILLS"
+		},		
+		{"type": "dictionary",
+		"entry": "MOUNTAIN"
+		}	
+        ],
+        "dimensionRestriction": "blacklist",
+        "dimensions": [
+            -1,
+            1
+        ]
+    },
+    "quartz1": {
+        "template": "uniform",
+        "block": "quartz_ore",
+        "material": "minecraft:netherrack",
+        "clusterSize": 13,
+        "numClusters": 16,
+        "minHeight": 10,
+        "maxHeight": 118,
+        "retrogen": "true",
+        "biomeRestriction": "whitelist",
+        "biomes": [
+            {"type": "dictionary", "entry": "NETHER"}
+        ],
+        "dimensionRestriction": "none",
+        "dimensions": []
+    }
+}

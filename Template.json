@@ -1,0 +1,12 @@
+{
+"minimumVersion": 1, 
+"packages": [
+{
+"name": "MF3 Package", 
+"title": "MagicFarm3", 
+"version": "MODPACKVERSION", 
+"location": "https://www.lolnet.co.nz/modpack/MagicFarm3.json", 
+"priority": 1
+}
+]
+}

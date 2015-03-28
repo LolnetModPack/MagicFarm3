@@ -1,0 +1,249 @@
+{
+    "images":
+    {
+	
+		"black":
+        {
+            "image" : "custommainmenu:textures/gui/blacktransparent.png",
+            "posX" : -100,
+            "posY" : 0,
+            "width" : 235,
+            "height" : 2000,
+            "alignment" : "top_center"
+        },
+        "title":
+        {
+            "image" : "custommainmenu:textures/gui/icon1.png",
+            "posX" : -20,
+            "posY" : 10,
+            "width" : 80,
+            "height" : 80,
+            "alignment" : "top_center"
+        }
+    },
+    
+    "buttons":
+    {
+        "singleplayer":
+        {
+            "text" : "menu.singleplayer",
+            "posX" : -80,
+            "posY" : 100,
+            "width" : 100,
+            "height" : 20,
+			"alignment" : "top_center",
+			"texture" : "custommainmenu:textures/gui/button3.png",
+			"action" :  {
+			"type" : "openGui",
+			"gui" : "singleplayer"
+			}
+        },
+        
+        "multiplayer":
+        {
+            "text" : "menu.multiplayer",
+            "posX" : 20,
+            "posY" : 100,
+            "width" : 100,
+            "height" : 20,
+			"texture" : "custommainmenu:textures/gui/button3.png",
+			"alignment" : "top_center",
+			"action" :  {
+			"type" : "openGui",
+			"gui" : "multiplayer"
+			}
+        },
+        
+        "mods":
+        {
+            "text" : "Mods",
+            "posX" : -80,
+            "posY" : 120,
+            "width" : 100,
+            "height" : 20,
+			"texture" : "custommainmenu:textures/gui/button3.png",
+			"alignment" : "top_center",
+			"action" :  {
+			"type" : "openGui",
+			"gui" : "mods"
+			}
+        },
+            
+        "options":
+        {
+            "text" : "menu.options",
+            "posX" : 20,
+            "posY" : 120,
+            "width" : 100,
+            "height" : 20,
+			"texture" : "custommainmenu:textures/gui/button3.png",
+			"alignment" : "top_center",
+			"action" :  {
+			"type" : "openGui",
+			"gui" : "options"
+			}
+        },
+		
+		"resourcepacks":
+        {
+            "text" : "ResourcePacks",
+            "posX" : -80,
+            "posY" : 140,
+            "width" : 100,
+            "height" : 20,
+			"texture" : "custommainmenu:textures/gui/button3.png",
+			"alignment" : "top_center",
+			"action" :  {
+			"type" : "openGui",
+			"gui" : "options.ressourcepacks"
+			}
+        },
+        
+        "quit":
+        {
+            "text" : "menu.quit",
+            "posX" : -80,
+            "posY" : 180,
+            "width" : 100,
+            "height" : 20,
+			"texture" : "custommainmenu:textures/gui/buttonexit.png",
+			"alignment" : "top_center",
+			"hoverText" : "Awww, don't leave!",
+			"action" :  {
+			"type" : "quit"
+			
+			}
+        },        
+        
+		"packthread":
+        {
+            "text" : "Forum",
+            "posX" : 20,
+            "posY" : 160,
+            "width" : 50,
+            "height" : 20,
+			"texture" : "custommainmenu:textures/gui/buttonsmall.png",
+			"alignment" : "top_center",
+			"action" : {
+			"type" : "openLink",
+			"link" : "http://minecraft.curseforge.com/forums/jadeds-packs"
+			}
+        },
+		
+		"bugs":
+        {
+            "text" : "Issues",
+            "posX" : 20,
+            "posY" : 140,
+            "width" : 100,
+            "height" : 20,
+			"texture" : "custommainmenu:textures/gui/buttonsmall.png",
+			"alignment" : "top_center",
+			"action" : {
+			"type" : "openLink",
+			"link" : "http://ftb.curseforge.com/modpacks/227425-magic-farm-3-harvest/issues"
+			}
+        },
+		"wiki":
+        {
+            "text" : "Wiki",
+            "posX" : -80,
+            "posY" : 160,
+            "width" : 50,
+            "height" : 20,
+			"texture" : "custommainmenu:textures/gui/buttonsmall.png",
+			"alignment" : "top_center",
+			"action" : {
+			"type" : "openLink",
+			"link" : "http://jadedpacks.gamepedia.com/Jaded_Packs_Wiki"
+			}
+        },
+		"guides":
+        {
+            "text" : "Guides",
+            "posX" : -30,
+            "posY" : 160,
+            "width" : 50,
+            "height" : 20,
+			"texture" : "custommainmenu:textures/gui/buttonsmall.png",
+			"alignment" : "top_center",
+			"action" : {
+			"type" : "openLink",
+			"link" : "https://www.youtube.com/playlist?list=PLSGwuxOIUJilwD3m_w0uWP7gjp8qrB36S"
+			}
+        }, 
+		"language":
+        {
+            "text" : "Language",
+            "posX" : 70,
+            "posY" : 160,
+            "width" : 50,
+            "height" : 20,
+			"texture" : "custommainmenu:textures/gui/buttonsmall.png",
+			"alignment" : "top_center",
+			"action" :  {
+			"type" : "openGui",
+			"gui" : "languages"
+			}
+        },		
+        "refresh":
+        {
+            "text" : "Refresh",
+            "posX" : 20,
+            "posY" :180,
+            "width" : 50,
+            "height" : 20,
+			"texture" : "custommainmenu:textures/gui/buttonsmall.png",
+			"alignment" : "top_center",
+			"action" : {
+			"type" : "refresh"
+			}
+        }
+    },
+    
+    "texts":
+    {
+        "version":
+        {
+            "text" : "Version: 1.1.24",
+            "posX" : -80,
+            "posY" : 210,
+            "color" : -1,
+            "alignment" : "top_center"
+        },
+		"modpack":
+        {
+            "text" : "Magic Farm 3: Harvest",
+            "posX" : -80,
+            "posY" : 220,
+            "color" : 10194114,
+            "alignment" : "top_center"
+        },
+		"author":
+        {
+            "text" : "by Jadedcat",
+            "posX" : -80,
+            "posY" : 230,
+            "color" : 9222338,
+            "alignment" : "top_center"
+        }
+    },
+    
+    "other":
+    {
+        "splash-text":
+        {
+            "posX" : 80,
+            "posY" : 80,
+            "color" : -256,
+            "alignment" : "top_center"
+        },
+        
+        "panorama":
+        {
+            "images" : "minecraft:textures/gui/title/background/panorama_%c.png",
+            "blur" : true,
+            "gradient" : true
+        }
+    }
+}

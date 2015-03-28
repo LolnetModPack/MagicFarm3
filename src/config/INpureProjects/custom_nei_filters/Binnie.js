@@ -1,0 +1,30 @@
+if (FML.isModLoaded("Forestry") && Binnie_enabled){
+    NEI.override("BinnieCore:containerCapsule", [64]);
+    NEI.override("BinnieCore:containerCylinder", [64]);
+	NEI.override("BinnieCore:containerBucket", [64]);
+	NEI.override("BinnieCore:containerRefractory", [64]);
+	NEI.override("BinnieCore:containerCan", [64]);
+	NEI.override("BinnieCore:containerGlass", [256]);
+	NEI.override("ExtraBees:hive", [0]);
+	NEI.override("ExtraTrees:doubleSlab", [0]);
+	NEI.override("ExtraTrees:panel", [0]);
+	NEI.override("ExtraTrees:planks", [0]);
+	NEI.override("ExtraTrees:food", [0]);
+	NEI.override("ExtraTrees:gate", [0]);	
+	NEI.override("ExtraTrees:stairs", [0]);
+	NEI.override("ExtraTrees:slab", [0]);
+	NEI.override("ExtraTrees:stainedglass", [16387]);
+	NEI.override("ExtraTrees:fence", [32]);
+	NEI.override("ExtraTrees:log", [0]);
+	NEI.override("ExtraTrees:honeyComb", [1]);
+	NEI.override("ExtraTrees:door", [32]);
+	NEI.override("ExtraTrees:carpentry", [16387]);
+	NEI.override("ExtraTrees:drink", [0]);
+	NEI.override("Genetics:serum", [0]);
+	NEI.override("Genetics:serumArray", [0]);
+	NEI.override("ExtraBees:honeyComb", [1]);
+	NEI.override("GardenTrees:thin_log", [0]);
+	NEI.override("GardenTrees:thin_log_fence", [0]);
+	NEI.override("gendustry:GeneSample", [0]);
+	NEI.override("gendustry:HoneyComb", [0]);	
+}

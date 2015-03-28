@@ -1,0 +1,638 @@
+Script handler ready. Waiting for a while to ensure all other mods are done messing with NEI.
+Starting NEI Filter scripting. This might take a moment to load all the modules...
+Engine: JAVASCRIPT
+Setting up Java Library...
+Setting up FML Library...
+Setting up NEI Library...
+Setting up CreativeTab library...
+Found creative tab: tabBloodMagic
+Found creative tab: misc
+Found creative tab: tools
+Found creative tab: agricraft
+Found creative tab: materials
+Found creative tab: aroma1997core:creativetab
+Found creative tab: Automagy
+Found creative tab: buildingBlocks
+Found creative tab: Botania
+Found creative tab: EnderTechAll
+Found creative tab: apiculture
+Found creative tab: decorations
+Found creative tab: arboriculture
+Found creative tab: extraUtil
+Found creative tab: combat
+Found creative tab: food
+Found creative tab: forestry
+Found creative tab: lepidopterology
+Found creative tab: gardenCore
+Found creative tab: gardenTrees
+Found creative tab: Genetics
+Found creative tab: Hardcore Questing Mode
+Found creative tab: jabba
+Found creative tab: magicBees
+Found creative tab: MineFactory Reloaded
+Found creative tab: transportation
+Found creative tab: natura.plants
+Found creative tab: redstone
+Found creative tab: natura.nether
+Found creative tab: natura.trees
+Found creative tab: Nether Ores
+Found creative tab: Random Things
+Found creative tab: redstonearsenal.creativeTab
+Found creative tab: RefinedRelocation
+Found creative tab: Router Reborn
+Found creative tab: tabSanguimancy
+Found creative tab: solarflux
+Found creative tab: steves_production
+Found creative tab: storageDrawers
+Found creative tab: TConstructBlocks
+Found creative tab: TConstructWeaponry
+Found creative tab: TConstructParts
+Found creative tab: TConstructTools
+Found creative tab: TConstructMaterials
+Found creative tab: TConstructEquipables
+Found creative tab: thaumcraft
+Found creative tab: thermaldynamics.creativeTab
+Found creative tab: thermalexpansion.creativeTabBlocks
+Found creative tab: thermalexpansion.creativeTabItems
+Found creative tab: thermalexpansion.creativeTabTools
+Found creative tab: thermalexpansion.creativeTabFlorbs
+Found creative tab: thermalfoundation.creativeTab
+Found creative tab: thermalfoundation.creativeTabArmor
+Found creative tab: thermalfoundation.creativeTabTools
+Found creative tab: travellersgear
+Found creative tab: bdew.generators
+Found creative tab: Bagginses
+Found creative tab: ChocoCraft
+Found creative tab: compactStorage
+Found creative tab: Fluxed-Crystals
+Found creative tab: bdew.gendustry
+Found creative tab: bdew.samples
+Found creative tab: bdew.templates
+Found creative tab: tabHarvestCraft2
+Found creative tab: tabHarvestCraft3
+Found creative tab: tabHarvestCraft
+Found creative tab: headcrumbs
+Found creative tab: tabKC.foods
+Found creative tab: tabKC.machines
+Found creative tab: menagerie
+Found creative tab: brewing
+Found creative tab: PATab
+Found creative tab: recallTab
+Found creative tab: tabSimplyJetpacks
+Setting up ExtraUtilities Library...
+Loading table of contents for module: custom_nei_filters, 1.0, Author: denoflionsx
+Bootstrap setting found. Loading: Bootstrap.js
+Loading: vanilla.js
+hide called. Params: minecraft, portal
+Regex match found! minecraft:portal matches minecraft:portal.
+Found ItemStack minecraft:portal. 64xtile.portal@0
+hide called. Params: minecraft, end_portal
+Regex match found! minecraft:end_portal matches minecraft:end_portal.
+Found ItemStack minecraft:end_portal. 64xtile.null@0
+hide called. Params: minecraft, fire
+Regex match found! minecraft:fire matches minecraft:fire.
+Found ItemStack minecraft:fire. 64xtile.fire@0
+hide called. Params: minecraft, water
+Regex match found! minecraft:water matches minecraft:water.
+Found ItemStack minecraft:water. 64xtile.water@0
+hide called. Params: minecraft, lava
+Regex match found! minecraft:lava matches minecraft:lava.
+Found ItemStack minecraft:lava. 64xtile.lava@0
+hide called. Params: minecraft, mob_spawner
+Regex match found! minecraft:mob_spawner matches minecraft:mob_spawner.
+Found ItemStack minecraft:mob_spawner. 64xtile.mobSpawner@0
+override called. Params: minecraft, potion, 0
+Regex match found! minecraft:potion matches minecraft:potion.
+Found ItemStack minecraft:potion. 1xitem.potion@0
+override called. Params: minecraft, spawn_egg, 0
+Regex match found! minecraft:spawn_egg matches minecraft:spawn_egg.
+Found ItemStack minecraft:spawn_egg. 64xitem.monsterPlacer@0
+override called. Params: minecraft, wool, 0
+Regex match found! minecraft:wool matches minecraft:wool.
+Found ItemStack minecraft:wool. 64xtile.cloth@0
+override called. Params: minecraft, stained_glass, 0
+Regex match found! minecraft:stained_glass matches minecraft:stained_glass.
+Found ItemStack minecraft:stained_glass. 64xtile.stainedGlass@0
+override called. Params: minecraft, stained_hardened_clay, 0
+Regex match found! minecraft:stained_hardened_clay matches minecraft:stained_hardened_clay.
+Found ItemStack minecraft:stained_hardened_clay. 64xtile.clayHardenedStained@0
+override called. Params: minecraft, stained_glass_pane, 0
+Regex match found! minecraft:stained_glass_pane matches minecraft:stained_glass_pane.
+Found ItemStack minecraft:stained_glass_pane. 64xtile.thinStainedGlass@0
+override called. Params: minecraft, carpet, 0
+Regex match found! minecraft:carpet matches minecraft:carpet.
+Found ItemStack minecraft:carpet. 64xtile.woolCarpet@0
+Loading: ThermalExpansion.js
+override called. Params: ThermalExpansion, florb, 0,1
+Regex match found! ThermalExpansion:florb matches ThermalExpansion:florb.
+Found ItemStack ThermalExpansion:florb. 16xitem.thermalexpansion.florb@0
+Loading: Mekanism.js
+Loading: ForgeMicroblock.js
+Loading: ExtraUtilities.js
+override called. Params: ExtraUtilities, drum, 0,1
+Regex match found! ExtraUtilities:drum matches ExtraUtilities:drum.
+Found ItemStack ExtraUtilities:drum. 64xtile.extrautils:drum@0
+override called. Params: ExtraUtilities, greenscreen, 0
+Regex match found! ExtraUtilities:greenscreen matches ExtraUtilities:greenscreen.
+Found ItemStack ExtraUtilities:greenscreen. 64xtile.extrautils:greenscreen@0
+override called. Params: ExtraUtilities, color_blockCoal, 0
+Regex match found! ExtraUtilities:color_blockCoal matches ExtraUtilities:color_blockCoal.
+Found ItemStack ExtraUtilities:color_blockCoal. 64xtile.extrautils:color_blockCoal@0
+override called. Params: ExtraUtilities, color_blockRedstone, 0
+Regex match found! ExtraUtilities:color_blockRedstone matches ExtraUtilities:color_blockRedstone.
+Found ItemStack ExtraUtilities:color_blockRedstone. 64xtile.extrautils:color_blockRedstone@0
+override called. Params: ExtraUtilities, color_obsidian, 0
+Regex match found! ExtraUtilities:color_obsidian matches ExtraUtilities:color_obsidian.
+Found ItemStack ExtraUtilities:color_obsidian. 64xtile.extrautils:color_obsidian@0
+override called. Params: ExtraUtilities, color_blockLapis, 0
+Regex match found! ExtraUtilities:color_blockLapis matches ExtraUtilities:color_blockLapis.
+Found ItemStack ExtraUtilities:color_blockLapis. 64xtile.extrautils:color_blockLapis@0
+override called. Params: ExtraUtilities, color_stonebrick, 0
+Regex match found! ExtraUtilities:color_stonebrick matches ExtraUtilities:color_stonebrick.
+Found ItemStack ExtraUtilities:color_stonebrick. 64xtile.extrautils:color_stonebrick@0
+override called. Params: ExtraUtilities, color_brick, 0
+Regex match found! ExtraUtilities:color_brick matches ExtraUtilities:color_brick.
+Found ItemStack ExtraUtilities:color_brick. 64xtile.extrautils:color_brick@0
+override called. Params: ExtraUtilities, color_redstoneLight, 0
+Regex match found! ExtraUtilities:color_redstoneLight matches ExtraUtilities:color_redstoneLight.
+Found ItemStack ExtraUtilities:color_redstoneLight. 64xtile.extrautils:color_redstoneLight@0
+override called. Params: ExtraUtilities, color_hellsand, 0
+Regex match found! ExtraUtilities:color_hellsand matches ExtraUtilities:color_hellsand.
+Found ItemStack ExtraUtilities:color_hellsand. 64xtile.extrautils:color_hellsand@0
+override called. Params: ExtraUtilities, color_quartzBlock, 0
+Regex match found! ExtraUtilities:color_quartzBlock matches ExtraUtilities:color_quartzBlock.
+Found ItemStack ExtraUtilities:color_quartzBlock. 64xtile.extrautils:color_quartzBlock@0
+override called. Params: ExtraUtilities, color_stone, 0
+Regex match found! ExtraUtilities:color_stone matches ExtraUtilities:color_stone.
+Found ItemStack ExtraUtilities:color_stone. 64xtile.extrautils:color_stone@0
+override called. Params: ExtraUtilities, color_lightgem, 0
+Regex match found! ExtraUtilities:color_lightgem matches ExtraUtilities:color_lightgem.
+Found ItemStack ExtraUtilities:color_lightgem. 64xtile.extrautils:color_lightgem@0
+override called. Params: ExtraUtilities, colorWoodPlanks, 0
+Regex match found! ExtraUtilities:colorWoodPlanks matches ExtraUtilities:colorWoodPlanks.
+Found ItemStack ExtraUtilities:colorWoodPlanks. 64xtile.extrautils:colorWoodPlanks@0
+override called. Params: ExtraUtilities, colorStoneBrick, 0
+Regex match found! ExtraUtilities:colorStoneBrick matches ExtraUtilities:colorStoneBrick.
+Found ItemStack ExtraUtilities:colorStoneBrick. 64xtile.extrautils:colorStoneBrick@0
+Loading: BuildCraft.js
+Loading: Bibliocraft.js
+Loading: AppliedEnergistics2.js
+Loading: Tcon.js
+override called. Params: TConstruct, tool*, 0
+Regex match found! TConstruct:tool* matches TConstruct:toolRod.
+Regex match found! TConstruct:tool* matches TConstruct:toolShard.
+Found ItemStack TConstruct:toolRod. 64xitem.tconstruct.ToolRod@0
+Found ItemStack TConstruct:toolShard. 64xitem.tconstruct.ToolShard@0
+override called. Params: TConstruct, binding, 0
+Regex match found! TConstruct:binding matches TConstruct:binding.
+Found ItemStack TConstruct:binding. 64xitem.tconstruct.Binding@0
+override called. Params: TConstruct, scytheBlade, 0
+Regex match found! TConstruct:scytheBlade matches TConstruct:scytheBlade.
+Found ItemStack TConstruct:scytheBlade. 64xitem.tconstruct.ScytheHead@0
+override called. Params: TConstruct, pickaxe, 0
+Regex match found! TConstruct:pickaxe matches TConstruct:pickaxe.
+Found ItemStack TConstruct:pickaxe. 1xitem.InfiTool.Pickaxe@0
+override called. Params: TConstruct, shovel, 0
+Regex match found! TConstruct:shovel matches TConstruct:shovel.
+Found ItemStack TConstruct:shovel. 1xitem.InfiTool.Shovel@0
+override called. Params: TConstruct, hatchet, 0
+Regex match found! TConstruct:hatchet matches TConstruct:hatchet.
+Found ItemStack TConstruct:hatchet. 1xitem.InfiTool.Axe@0
+override called. Params: TConstruct, broadsword, 0
+Regex match found! TConstruct:broadsword matches TConstruct:broadsword.
+Found ItemStack TConstruct:broadsword. 1xitem.InfiTool.Broadsword@0
+override called. Params: TConstruct, longsword, 0
+Regex match found! TConstruct:longsword matches TConstruct:longsword.
+Found ItemStack TConstruct:longsword. 1xitem.InfiTool.Longsword@0
+override called. Params: TConstruct, rapier, 0
+Regex match found! TConstruct:rapier matches TConstruct:rapier.
+Found ItemStack TConstruct:rapier. 1xitem.InfiTool.Rapier@0
+override called. Params: TConstruct, dagger, 0
+Regex match found! TConstruct:dagger matches TConstruct:dagger.
+Found ItemStack TConstruct:dagger. 1xitem.InfiTool.Dagger@0
+override called. Params: TConstruct, cutlass, 0
+Regex match found! TConstruct:cutlass matches TConstruct:cutlass.
+Found ItemStack TConstruct:cutlass. 1xitem.InfiTool.Cutlass@0
+override called. Params: TConstruct, frypan, 0
+Regex match found! TConstruct:frypan matches TConstruct:frypan.
+Found ItemStack TConstruct:frypan. 1xitem.InfiTool.FryPan@0
+override called. Params: TConstruct, mattock, 0
+Regex match found! TConstruct:mattock matches TConstruct:mattock.
+Found ItemStack TConstruct:mattock. 1xitem.InfiTool.Mattock@0
+override called. Params: TConstruct, chisel, 0
+Regex match found! TConstruct:chisel matches TConstruct:chisel.
+Found ItemStack TConstruct:chisel. 1xitem.InfiTool.Chisel@0
+override called. Params: TConstruct, lumberaxe, 0
+Regex match found! TConstruct:lumberaxe matches TConstruct:lumberaxe.
+Found ItemStack TConstruct:lumberaxe. 1xitem.InfiTool.LumberAxe@0
+override called. Params: TConstruct, cleaver, 0
+Regex match found! TConstruct:cleaver matches TConstruct:cleaver.
+Found ItemStack TConstruct:cleaver. 1xitem.InfiTool.Cleaver@0
+override called. Params: TConstruct, scythe, 0
+Regex match found! TConstruct:scythe matches TConstruct:scythe.
+Found ItemStack TConstruct:scythe. 1xitem.InfiTool.Scythe@0
+override called. Params: TConstruct, excavator, 0
+Regex match found! TConstruct:excavator matches TConstruct:excavator.
+Found ItemStack TConstruct:excavator. 1xitem.InfiTool.Excavator@0
+override called. Params: TConstruct, hammer, 0
+Regex match found! TConstruct:hammer matches TConstruct:hammer.
+Found ItemStack TConstruct:hammer. 1xitem.InfiTool.Hammer@0
+override called. Params: TConstruct, battleaxe, 0
+Regex match found! TConstruct:battleaxe matches TConstruct:battleaxe.
+Found ItemStack TConstruct:battleaxe. 1xitem.InfiTool.Battleaxe@0
+override called. Params: TConstruct, battlesign, 0
+Regex match found! TConstruct:battlesign matches TConstruct:battlesign.
+Found ItemStack TConstruct:battlesign. 1xitem.InfiTool.Battlesign@0
+override called. Params: TConstruct, crossbar, 0
+Regex match found! TConstruct:crossbar matches TConstruct:crossbar.
+Found ItemStack TConstruct:crossbar. 64xitem.tconstruct.Crossbar@0
+override called. Params: TConstruct, fullGuard, 0
+Regex match found! TConstruct:fullGuard matches TConstruct:fullGuard.
+Found ItemStack TConstruct:fullGuard. 64xitem.tconstruct.FullGuard@0
+override called. Params: TConstruct, chiselHead, 0
+Regex match found! TConstruct:chiselHead matches TConstruct:chiselHead.
+Found ItemStack TConstruct:chiselHead. 64xitem.tconstruct.ChiselHead@0
+override called. Params: TConstruct, toughBinding, 0
+Regex match found! TConstruct:toughBinding matches TConstruct:toughBinding.
+Found ItemStack TConstruct:toughBinding. 64xitem.tconstruct.ToughBinding@0
+override called. Params: TConstruct, toughRod, 0
+Regex match found! TConstruct:toughRod matches TConstruct:toughRod.
+Found ItemStack TConstruct:toughRod. 64xitem.tconstruct.ToughRod@0
+override called. Params: TConstruct, wideGuard, 0
+Regex match found! TConstruct:wideGuard matches TConstruct:wideGuard.
+Found ItemStack TConstruct:wideGuard. 64xitem.tconstruct.LargeGuard@0
+override called. Params: TConstruct, handGuard, 0
+Regex match found! TConstruct:handGuard matches TConstruct:handGuard.
+Found ItemStack TConstruct:handGuard. 64xitem.tconstruct.MediumGuard@0
+override called. Params: TConstruct, buckets, 0
+Regex match found! TConstruct:buckets matches TConstruct:buckets.
+Found ItemStack TConstruct:buckets. 1xitem.tconstruct.bucket@0
+override called. Params: TConstruct, Javelin, 0
+Regex match found! TConstruct:Javelin matches TConstruct:Javelin.
+Found ItemStack TConstruct:Javelin. 1xitem.InfiTool@0
+override called. Params: TConstruct, ThrowingKnife, 0
+Regex match found! TConstruct:ThrowingKnife matches TConstruct:ThrowingKnife.
+Found ItemStack TConstruct:ThrowingKnife. 1xitem.InfiTool@0
+override called. Params: TConstruct, ShortBow, 0
+Regex match found! TConstruct:ShortBow matches TConstruct:ShortBow.
+Found ItemStack TConstruct:ShortBow. 1xitem.InfiTool@0
+override called. Params: TConstruct, LongBow, 0
+Regex match found! TConstruct:LongBow matches TConstruct:LongBow.
+Found ItemStack TConstruct:LongBow. 1xitem.InfiTool@0
+override called. Params: TConstruct, Crossbow, 0
+Regex match found! TConstruct:Crossbow matches TConstruct:Crossbow.
+Found ItemStack TConstruct:Crossbow. 1xitem.InfiTool@0
+override called. Params: TConstruct, ArrowAmmo, 0
+Regex match found! TConstruct:ArrowAmmo matches TConstruct:ArrowAmmo.
+Found ItemStack TConstruct:ArrowAmmo. 1xitem.InfiTool@0
+override called. Params: TConstruct, BoltAmmo, 0
+Regex match found! TConstruct:BoltAmmo matches TConstruct:BoltAmmo.
+Found ItemStack TConstruct:BoltAmmo. 1xitem.InfiTool@0
+override called. Params: TConstruct, GlassBlock.StainedClear, 0
+Regex match found! TConstruct:GlassBlock.StainedClear matches TConstruct:GlassBlock.StainedClear.
+Found ItemStack TConstruct:GlassBlock.StainedClear. 64xtile.GlassBlock.StainedClear@0
+override called. Params: TConstruct, GlassPaneClearStained, 0
+Regex match found! TConstruct:GlassPaneClearStained matches TConstruct:GlassPaneClearStained.
+Found ItemStack TConstruct:GlassPaneClearStained. 64xtile.tconstruct.glasspanestained@0
+override called. Params: TConstruct, WoolSlab1, 0
+Regex match found! TConstruct:WoolSlab1 matches TConstruct:WoolSlab1.
+Found ItemStack TConstruct:WoolSlab1. 64xtile.cloth@0
+override called. Params: TConstruct, WoolSlab2, 0
+Regex match found! TConstruct:WoolSlab2 matches TConstruct:WoolSlab2.
+Found ItemStack TConstruct:WoolSlab2. 64xtile.cloth@0
+override called. Params: TConstruct, MetalBlock, 0
+Regex match found! TConstruct:MetalBlock matches TConstruct:MetalBlock.
+Found ItemStack TConstruct:MetalBlock. 64xtile.tconstruct.metalblock@0
+override called. Params: TConstruct, SearedSlab, 0
+Regex match found! TConstruct:SearedSlab matches TConstruct:SearedSlab.
+Found ItemStack TConstruct:SearedSlab. 64xtile.SearedSlab@0
+override called. Params: TConstruct, shovelHead, 0
+Regex match found! TConstruct:shovelHead matches TConstruct:shovelHead.
+Found ItemStack TConstruct:shovelHead. 64xitem.tconstruct.ShovelHead@0
+override called. Params: TConstruct, heavyPlate, 0
+Regex match found! TConstruct:heavyPlate matches TConstruct:heavyPlate.
+Found ItemStack TConstruct:heavyPlate. 64xitem.tconstruct.LargePlate@0
+override called. Params: TConstruct, frypanHead, 0
+Regex match found! TConstruct:frypanHead matches TConstruct:frypanHead.
+Found ItemStack TConstruct:frypanHead. 64xitem.tconstruct.FrypanHead@0
+override called. Params: TConstruct, signHead, 0
+Regex match found! TConstruct:signHead matches TConstruct:signHead.
+Found ItemStack TConstruct:signHead. 64xitem.tconstruct.SignHead@0
+override called. Params: TConstruct, broadAxeHead, 0
+Regex match found! TConstruct:broadAxeHead matches TConstruct:broadAxeHead.
+Found ItemStack TConstruct:broadAxeHead. 64xitem.tconstruct.LumberAxeHead@0
+override called. Params: TConstruct, excavatorHead, 0
+Regex match found! TConstruct:excavatorHead matches TConstruct:excavatorHead.
+Found ItemStack TConstruct:excavatorHead. 64xitem.tconstruct.ExcavatorHead@0
+override called. Params: TConstruct, hammerHead, 0
+Regex match found! TConstruct:hammerHead matches TConstruct:hammerHead.
+Found ItemStack TConstruct:hammerHead. 64xitem.tconstruct.HammerHead@0
+override called. Params: TConstruct, creativeModifier, 0
+Regex match found! TConstruct:creativeModifier matches TConstruct:creativeModifier.
+Found ItemStack TConstruct:creativeModifier. 64xitem.tconstruct.modifier.creative@0
+Loading: MFR.js
+override called. Params: MineFactoryReloaded, stainedglass.block, 0
+Regex match found! MineFactoryReloaded:stainedglass.block matches MineFactoryReloaded:stainedglass.block.
+Found ItemStack MineFactoryReloaded:stainedglass.block. 64xtile.mfr.stainedglass.block@0
+hide called. Params: MineFactoryReloaded:milk.still, 0
+override called. Params: MineFactoryReloaded, stainedglass.pane, 0
+Regex match found! MineFactoryReloaded:stainedglass.pane matches MineFactoryReloaded:stainedglass.pane.
+Found ItemStack MineFactoryReloaded:stainedglass.pane. 64xtile.mfr.stainedglass.pane@0
+override called. Params: MineFactoryReloaded, conveyor, 0
+Regex match found! MineFactoryReloaded:conveyor matches MineFactoryReloaded:conveyor.
+Found ItemStack MineFactoryReloaded:conveyor. 64xtile.mfr.conveyor@0
+Loading: Botania.js
+override called. Params: Botania, unstableBlock, 0
+Regex match found! Botania:unstableBlock matches Botania:unstableBlock.
+Found ItemStack Botania:unstableBlock. 64xtile.unstableBlock@0
+override called. Params: Botania, manaBeacon, 0
+Regex match found! Botania:manaBeacon matches Botania:manaBeacon.
+Found ItemStack Botania:manaBeacon. 64xtile.manaBeacon@0
+override called. Params: Botania, shinyFlower, 0
+Regex match found! Botania:shinyFlower matches Botania:shinyFlower.
+Found ItemStack Botania:shinyFlower. 64xtile.shinyFlower@0
+override called. Params: Botania, miniIsland, 0
+Regex match found! Botania:miniIsland matches Botania:miniIsland.
+Found ItemStack Botania:miniIsland. 64xtile.miniIsland@0
+override called. Params: Botania, manaPetal, 0
+Regex match found! Botania:manaPetal matches Botania:manaPetal.
+Found ItemStack Botania:manaPetal. 64xitem.manaPetal@0
+override called. Params: Botania, petal, 0
+Regex match found! Botania:petal matches Botania:petal.
+Found ItemStack Botania:petal. 64xitem.petal@0
+override called. Params: Botania, dye, 0
+Regex match found! Botania:dye matches Botania:dye.
+Found ItemStack Botania:dye. 64xitem.dye@0
+override called. Params: Botania, twigWand, 0
+Regex match found! Botania:twigWand matches Botania:twigWand.
+Found ItemStack Botania:twigWand. 1xitem.twigWand@0
+override called. Params: Botania, signalFlare, 0
+Regex match found! Botania:signalFlare matches Botania:signalFlare.
+Found ItemStack Botania:signalFlare. 1xitem.signalFlare@0
+override called. Params: Botania, brewVial, 0
+Regex match found! Botania:brewVial matches Botania:brewVial.
+Found ItemStack Botania:brewVial. 1xitem.brewVial@0
+override called. Params: Botania, brewFlask, 0
+Regex match found! Botania:brewFlask matches Botania:brewFlask.
+Found ItemStack Botania:brewFlask. 1xitem.brewFlask@0
+override called. Params: Botania, petalBlock, 0
+Regex match found! Botania:petalBlock matches Botania:petalBlock.
+Found ItemStack Botania:petalBlock. 64xtile.petalBlock@0
+override called. Params: Botania, floatingSpecialFlower, 0
+Regex match found! Botania:floatingSpecialFlower matches Botania:floatingSpecialFlower.
+Found ItemStack Botania:floatingSpecialFlower. 64xtile.floatingSpecialFlower@0
+Loading: AgriCraft.js
+override called. Params: AgriCraft, waterTank, 0
+Regex match found! AgriCraft:waterTank matches AgriCraft:waterTank.
+Found ItemStack AgriCraft:waterTank. 64xtile.agricraft:waterTank@0
+override called. Params: AgriCraft, waterChannel, 0
+Regex match found! AgriCraft:waterChannel matches AgriCraft:waterChannel.
+Found ItemStack AgriCraft:waterChannel. 64xtile.agricraft:waterChannel@0
+override called. Params: AgriCraft, channelValve, 0
+Regex match found! AgriCraft:channelValve matches AgriCraft:channelValve.
+Found ItemStack AgriCraft:channelValve. 64xtile.agricraft:channelValve@0
+Loading: Binnie.js
+override called. Params: BinnieCore, containerCapsule, 64
+Regex match found! BinnieCore:containerCapsule matches BinnieCore:containerCapsule.
+Found ItemStack BinnieCore:containerCapsule. 16xitem.containerCapsule@0
+override called. Params: BinnieCore, containerCylinder, 64
+Regex match found! BinnieCore:containerCylinder matches BinnieCore:containerCylinder.
+Found ItemStack BinnieCore:containerCylinder. 16xitem.containerCylinder@0
+override called. Params: BinnieCore, containerBucket, 64
+Regex match found! BinnieCore:containerBucket matches BinnieCore:containerBucket.
+Found ItemStack BinnieCore:containerBucket. 1xitem.containerBucket@0
+override called. Params: BinnieCore, containerRefractory, 64
+Regex match found! BinnieCore:containerRefractory matches BinnieCore:containerRefractory.
+Found ItemStack BinnieCore:containerRefractory. 16xitem.containerRefractory@0
+override called. Params: BinnieCore, containerCan, 64
+Regex match found! BinnieCore:containerCan matches BinnieCore:containerCan.
+Found ItemStack BinnieCore:containerCan. 16xitem.containerCan@0
+override called. Params: BinnieCore, containerGlass, 256
+Regex match found! BinnieCore:containerGlass matches BinnieCore:containerGlass.
+Found ItemStack BinnieCore:containerGlass. 16xitem.containerGlass@0
+override called. Params: ExtraBees, hive, 0
+Regex match found! ExtraBees:hive matches ExtraBees:hive.
+Found ItemStack ExtraBees:hive. 64xtile.hive@0
+override called. Params: ExtraTrees, doubleSlab, 0
+Regex match found! ExtraTrees:doubleSlab matches ExtraTrees:doubleSlab.
+Found ItemStack ExtraTrees:doubleSlab. 64xtile.slabs@0
+override called. Params: ExtraTrees, panel, 0
+Regex match found! ExtraTrees:panel matches ExtraTrees:panel.
+Found ItemStack ExtraTrees:panel. 64xtile.carpentry@0
+override called. Params: ExtraTrees, planks, 0
+Regex match found! ExtraTrees:planks matches ExtraTrees:planks.
+Found ItemStack ExtraTrees:planks. 64xtile.planks@0
+override called. Params: ExtraTrees, food, 0
+Regex match found! ExtraTrees:food matches ExtraTrees:food.
+Found ItemStack ExtraTrees:food. 64xitem.food@0
+override called. Params: ExtraTrees, gate, 0
+Regex match found! ExtraTrees:gate matches ExtraTrees:gate.
+Found ItemStack ExtraTrees:gate. 64xtile.null@0
+override called. Params: ExtraTrees, stairs, 0
+Regex match found! ExtraTrees:stairs matches ExtraTrees:stairs.
+Found ItemStack ExtraTrees:stairs. 64xtile.stairs@0
+override called. Params: ExtraTrees, slab, 0
+Regex match found! ExtraTrees:slab matches ExtraTrees:slab.
+Found ItemStack ExtraTrees:slab. 64xtile.slabs@0
+override called. Params: ExtraTrees, stainedglass, 16387
+Regex match found! ExtraTrees:stainedglass matches ExtraTrees:stainedglass.
+Found ItemStack ExtraTrees:stainedglass. 64xtile.stainedGlass@0
+override called. Params: ExtraTrees, fence, 32
+Regex match found! ExtraTrees:fence matches ExtraTrees:fence.
+Found ItemStack ExtraTrees:fence. 64xtile.fence@0
+override called. Params: ExtraTrees, log, 0
+Regex match found! ExtraTrees:log matches ExtraTrees:log.
+Found ItemStack ExtraTrees:log. 64xtile.log@0
+override called. Params: ExtraTrees, honeyComb, 1
+override called. Params: ExtraTrees, door, 32
+Regex match found! ExtraTrees:door matches ExtraTrees:door.
+Found ItemStack ExtraTrees:door. 1xtile.door@0
+override called. Params: ExtraTrees, carpentry, 16387
+Regex match found! ExtraTrees:carpentry matches ExtraTrees:carpentry.
+Found ItemStack ExtraTrees:carpentry. 64xtile.carpentry@0
+override called. Params: ExtraTrees, drink, 0
+Regex match found! ExtraTrees:drink matches ExtraTrees:drink.
+Found ItemStack ExtraTrees:drink. 1xitem.drink@0
+override called. Params: Genetics, serum, 0
+Regex match found! Genetics:serum matches Genetics:serum.
+Found ItemStack Genetics:serum. 1xitem.serum@0
+override called. Params: Genetics, serumArray, 0
+Regex match found! Genetics:serumArray matches Genetics:serumArray.
+Found ItemStack Genetics:serumArray. 1xitem.serumArray@0
+override called. Params: ExtraBees, honeyComb, 1
+Regex match found! ExtraBees:honeyComb matches ExtraBees:honeyComb.
+Found ItemStack ExtraBees:honeyComb. 64xitem.honeyComb@0
+override called. Params: GardenTrees, thin_log, 0
+Regex match found! GardenTrees:thin_log matches GardenTrees:thin_log.
+Found ItemStack GardenTrees:thin_log. 64xtile.gardentrees.thinLog@0
+override called. Params: GardenTrees, thin_log_fence, 0
+Regex match found! GardenTrees:thin_log_fence matches GardenTrees:thin_log_fence.
+Found ItemStack GardenTrees:thin_log_fence. 64xtile.gardentrees.thinLogFence@0
+override called. Params: gendustry, GeneSample, 0
+Regex match found! gendustry:GeneSample matches gendustry:GeneSample.
+Found ItemStack gendustry:GeneSample. 1xitem.gendustry.GeneSample@0
+override called. Params: gendustry, HoneyComb, 0
+Regex match found! gendustry:HoneyComb matches gendustry:HoneyComb.
+Found ItemStack gendustry:HoneyComb. 64xitem.gendustry.HoneyComb@0
+Loading: Thaumcraft.js
+override called. Params: Thaumcraft, ItemEssence, 0
+Regex match found! Thaumcraft:ItemEssence matches Thaumcraft:ItemEssence.
+Found ItemStack Thaumcraft:ItemEssence. 64xitem.ItemEssence@0
+override called. Params: Thaumcraft, ItemWispEssence, 0
+Regex match found! Thaumcraft:ItemWispEssence matches Thaumcraft:ItemWispEssence.
+Found ItemStack Thaumcraft:ItemWispEssence. 64xitem.ItemWispEssence@0
+override called. Params: Thaumcraft, WandRod, 0
+Regex match found! Thaumcraft:WandRod matches Thaumcraft:WandRod.
+Found ItemStack Thaumcraft:WandRod. 64xitem.WandRod@0
+override called. Params: Thaumcraft, WandCap, 0
+Regex match found! Thaumcraft:WandCap matches Thaumcraft:WandCap.
+Found ItemStack Thaumcraft:WandCap. 64xitem.WandCap@0
+override called. Params: Thaumcraft, WandRod, 0
+Regex match found! Thaumcraft:WandRod matches Thaumcraft:WandRod.
+Found ItemStack Thaumcraft:WandRod. 64xitem.WandRod@0
+Loading: Tweaks.js
+override called. Params: IguanaTweaksTConstruct, clayBucketsTinkers, 0
+Regex match found! IguanaTweaksTConstruct:clayBucketsTinkers matches IguanaTweaksTConstruct:clayBucketsTinkers.
+Found ItemStack IguanaTweaksTConstruct:clayBucketsTinkers. 1xitem.iguana.tcon.clayBucket@0
+Loading: Forestry.js
+override called. Params: Forestry, log, 0
+override called. Params: Forestry, log2, 0
+Regex match found! Forestry:log2 matches Forestry:log2.
+Found ItemStack Forestry:log2. 64xtile.for.log2@0
+override called. Params: Forestry, log3, 0
+Regex match found! Forestry:log3 matches Forestry:log3.
+Found ItemStack Forestry:log3. 64xtile.for.log3@0
+override called. Params: Forestry, log4, 0
+Regex match found! Forestry:log4 matches Forestry:log4.
+Found ItemStack Forestry:log4. 64xtile.for.log4@0
+override called. Params: Forestry, log5, 0
+Regex match found! Forestry:log5 matches Forestry:log5.
+Found ItemStack Forestry:log5. 64xtile.for.log5@0
+override called. Params: Forestry, log6, 0
+Regex match found! Forestry:log6 matches Forestry:log6.
+Found ItemStack Forestry:log6. 64xtile.for.log6@0
+override called. Params: Forestry, log7, 0
+Regex match found! Forestry:log7 matches Forestry:log7.
+Found ItemStack Forestry:log7. 64xtile.for.log7@0
+override called. Params: Forestry, log8, 0
+Regex match found! Forestry:log8 matches Forestry:log8.
+Found ItemStack Forestry:log8. 64xtile.for.log8@0
+override called. Params: Forestry, fireproofLog1, 0
+Regex match found! Forestry:fireproofLog1 matches Forestry:fireproofLog1.
+Found ItemStack Forestry:fireproofLog1. 64xtile.for.fireproofLog1@0
+override called. Params: Forestry, fireproofLog2, 0
+Regex match found! Forestry:fireproofLog2 matches Forestry:fireproofLog2.
+Found ItemStack Forestry:fireproofLog2. 64xtile.for.fireproofLog2@0
+override called. Params: Forestry, fireproofLog3, 0
+Regex match found! Forestry:fireproofLog3 matches Forestry:fireproofLog3.
+Found ItemStack Forestry:fireproofLog3. 64xtile.for.fireproofLog3@0
+override called. Params: Forestry, fireproofLog4, 0
+Regex match found! Forestry:fireproofLog4 matches Forestry:fireproofLog4.
+Found ItemStack Forestry:fireproofLog4. 64xtile.for.fireproofLog4@0
+override called. Params: Forestry, fireproofLog5, 0
+Regex match found! Forestry:fireproofLog5 matches Forestry:fireproofLog5.
+Found ItemStack Forestry:fireproofLog5. 64xtile.for.fireproofLog5@0
+override called. Params: Forestry, fireproofLog6, 0
+Regex match found! Forestry:fireproofLog6 matches Forestry:fireproofLog6.
+Found ItemStack Forestry:fireproofLog6. 64xtile.for.fireproofLog6@0
+override called. Params: Forestry, fireproofLog7, 0
+Regex match found! Forestry:fireproofLog7 matches Forestry:fireproofLog7.
+Found ItemStack Forestry:fireproofLog7. 64xtile.for.fireproofLog7@0
+override called. Params: Forestry, planks, 0
+Regex match found! Forestry:planks matches Forestry:planks.
+Found ItemStack Forestry:planks. 64xtile.for.planks@0
+override called. Params: Forestry, planks2, 0
+Regex match found! Forestry:planks2 matches Forestry:planks2.
+Found ItemStack Forestry:planks2. 64xtile.for.planks2@0
+override called. Params: Forestry, fireproofPlanks1, 0
+Regex match found! Forestry:fireproofPlanks1 matches Forestry:fireproofPlanks1.
+Found ItemStack Forestry:fireproofPlanks1. 64xtile.for.fireproofPlanks1@0
+override called. Params: Forestry, fireproofPlanks2, 0
+Regex match found! Forestry:fireproofPlanks2 matches Forestry:fireproofPlanks2.
+Found ItemStack Forestry:fireproofPlanks2. 64xtile.for.fireproofPlanks2@0
+override called. Params: Forestry, slabs1, 0
+Regex match found! Forestry:slabs1 matches Forestry:slabs1.
+Found ItemStack Forestry:slabs1. 64xtile.for.slabs1@0
+override called. Params: Forestry, slabs2, 0
+Regex match found! Forestry:slabs2 matches Forestry:slabs2.
+Found ItemStack Forestry:slabs2. 64xtile.for.slabs2@0
+override called. Params: Forestry, slabs3, 0
+Regex match found! Forestry:slabs3 matches Forestry:slabs3.
+Found ItemStack Forestry:slabs3. 64xtile.for.slabs3@0
+override called. Params: Forestry, fences2, 0
+Regex match found! Forestry:fences2 matches Forestry:fences2.
+Found ItemStack Forestry:fences2. 64xtile.for.fences2@0
+override called. Params: Forestry, fences, 0
+Regex match found! Forestry:fences matches Forestry:fences.
+Found ItemStack Forestry:fences. 64xtile.for.fences@0
+override called. Params: Forestry, stairs, 0
+Regex match found! Forestry:stairs matches Forestry:stairs.
+Found ItemStack Forestry:stairs. 64xtile.for.stairs@0
+override called. Params: Forestry, leaves, 0
+Regex match found! Forestry:leaves matches Forestry:leaves.
+Found ItemStack Forestry:leaves. 64xtile.for.leaves@0
+override called. Params: Forestry, sapling, 0
+Regex match found! Forestry:sapling matches Forestry:sapling.
+Found ItemStack Forestry:sapling. 64xitem.for.sapling@0
+override called. Params: Forestry, pollenFertile, 0
+Regex match found! Forestry:pollenFertile matches Forestry:pollenFertile.
+Found ItemStack Forestry:pollenFertile. 64xitem.for.pollenFertile@0
+override called. Params: Forestry, butterflyGE, 0
+Regex match found! Forestry:butterflyGE matches Forestry:butterflyGE.
+Found ItemStack Forestry:butterflyGE. 64xitem.for.butterflyGE@0
+override called. Params: Forestry, serumGE, 0
+Regex match found! Forestry:serumGE matches Forestry:serumGE.
+Found ItemStack Forestry:serumGE. 64xitem.for.serumGE@0
+override called. Params: Forestry, caterpillarGE, 0
+Regex match found! Forestry:caterpillarGE matches Forestry:caterpillarGE.
+Found ItemStack Forestry:caterpillarGE. 64xitem.for.caterpillarGE@0
+override called. Params: Forestry, beeLarvaeGE, 0
+Regex match found! Forestry:beeLarvaeGE matches Forestry:beeLarvaeGE.
+Found ItemStack Forestry:beeLarvaeGE. 1xitem.for.beeLarvaeGE@0
+override called. Params: Forestry, beeDroneGE, 0
+Regex match found! Forestry:beeDroneGE matches Forestry:beeDroneGE.
+Found ItemStack Forestry:beeDroneGE. 64xitem.for.beeDroneGE@0
+override called. Params: Forestry, beeQueenGE, 0
+Regex match found! Forestry:beeQueenGE matches Forestry:beeQueenGE.
+Found ItemStack Forestry:beeQueenGE. 1xitem.for.beeQueenGE@0
+override called. Params: Forestry, beePrincessGE, 0
+Regex match found! Forestry:beePrincessGE matches Forestry:beePrincessGE.
+Found ItemStack Forestry:beePrincessGE. 1xitem.for.beePrincessGE@0
+override called. Params: MagicBees, capsule.magic, 0
+Regex match found! MagicBees:capsule.magic matches MagicBees:capsule.magic.
+Found ItemStack MagicBees:capsule.magic. 64xitem.capsule.magic@0
+override called. Params: MagicBees, capsule.void, 0
+Regex match found! MagicBees:capsule.void matches MagicBees:capsule.void.
+Found ItemStack MagicBees:capsule.void. 64xitem.capsule.void@0
+Loading: FluxedCrystals.js
+override called. Params: fluxedcrystals, shard, 0
+Regex match found! fluxedcrystals:shard matches fluxedcrystals:shard.
+Found ItemStack fluxedcrystals:shard. 64xitem.fluxedcrystals.shard@0
+override called. Params: fluxedcrystals, roughShard, 0
+Regex match found! fluxedcrystals:roughShard matches fluxedcrystals:roughShard.
+Found ItemStack fluxedcrystals:roughShard. 64xitem.roughShard@0
+override called. Params: fluxedcrystals, roughChunk, 0
+Regex match found! fluxedcrystals:roughChunk matches fluxedcrystals:roughChunk.
+Found ItemStack fluxedcrystals:roughChunk. 64xitem.fluxedcrystals.roughChunk@0
+Loading: Natura.js
+override called. Params: Natura, tree, 0
+Regex match found! Natura:tree matches Natura:tree.
+Found ItemStack Natura:tree. 64xtile.natura.treeblock@0
+override called. Params: Natura, planks, 0
+Regex match found! Natura:planks matches Natura:planks.
+Found ItemStack Natura:planks. 64xtile.natura.planks@0
+override called. Params: Natura, florasapling, 0
+Regex match found! Natura:florasapling matches Natura:florasapling.
+Found ItemStack Natura:florasapling. 64xtile.natura.sapling@0
+override called. Params: Natura, Dark Leaves, 0
+override called. Params: Natura, redwood, 0
+Regex match found! Natura:redwood matches Natura:redwood.
+Found ItemStack Natura:redwood. 64xtile.natura.redwood@0
+override called. Params: Natura, Rare Tree, 0
+override called. Params: Natura, Natura.workbench, 0
+Regex match found! Natura:Natura.workbench matches Natura:Natura.workbench.
+Found ItemStack Natura:Natura.workbench. 64xtile.workbench@0
+override called. Params: Natura, Rare Leaves, 0
+override called. Params: Natura, Natura.fence, 0
+Regex match found! Natura:Natura.fence matches Natura:Natura.fence.
+Found ItemStack Natura:Natura.fence. 64xtile.fence@0
